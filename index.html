@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
     <title>Dev'Coffee PWA</title>
-	<link rel="manifest" href="manifest.json">
-
-  </head>
-  <body>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
     <main>
-      <nav>
-        <h1>Dev'Coffee</h1>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blog</li>
-        </ul>
-      </nav>
-      <div class="container"></div>
+        <nav>
+            <h1>Dev'Coffee</h1>
+            <ul>
+                <li><a href="#" data-page="home">Home</a></li>
+                <li><a href="#" data-page="about">About</a></li>
+                <li><a href="#" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="content"></div>
     </main>
     <script src="app.js"></script>
-  </body>
+</body>
 </html>

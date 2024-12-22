@@ -73,4 +73,16 @@ h1 {
   padding: 0.3rem 1rem;
   border-radius: 20px;
 }
-
+input#search {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+section {
+  padding: 1rem;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
